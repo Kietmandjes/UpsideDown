@@ -1,0 +1,20 @@
+@use 'abstract/fonts.scss';
+
+*,*::before,*::after{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    
+}
+
+body{
+    min-height: 100vh;
+
+    background: #eee;
+    font-family: fonts.$poppins;
+    font-size: 2rem;
+}
