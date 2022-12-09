@@ -1,0 +1,35 @@
+.form{
+    margin:1rem ;  
+    
+    &__inputnaam{
+        border: none;
+        background: none;
+        outline: none;
+        border-bottom: 2px solid;
+        transition: 0.2s;
+        padding-bottom: 0.25rem;
+        &:focus{
+            border-bottom: 3.5px solid;
+        }
+
+    }
+
+
+}
+
+.checkboxes{
+    display: inline;
+    margin: 0.5rem;
+    
+    &__input{
+        margin-left: 0.75rem;
+        margin: 0.5rem;
+        cursor: pointer;
+      
+    }
+
+    &__label{
+        cursor: pointer;
+    }
+        
+}
