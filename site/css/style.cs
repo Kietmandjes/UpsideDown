@@ -39,18 +39,17 @@ body {
   width: 100%;
 }
 .main__list {
-  width: 100%;
+  max-width: 100%;
   height: 100%;
   display: flex;
   flex-wrap: wrap;
   list-style: none;
-  justify-content: center;
   cursor: pointer;
 }
 .main__list--item {
   position: relative;
   height: 83vh;
-  width: 32.5vw;
+  width: 34vw;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -133,4 +132,4 @@ body {
   cursor: pointer;
 }
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.cs.map */
