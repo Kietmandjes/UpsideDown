@@ -1,0 +1,28 @@
+.button{
+    text-decoration: none;
+    color: black;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 50%;
+    padding: 1rem 1.55rem 1rem 1.55rem;
+    transition: 0.3s all;
+    position: absolute;
+    top: 5%;
+    right: 50%;
+
+    &:hover{
+        color:white;
+        background: rgba(0, 0, 0, 0.758);
+    }
+
+    &--1{
+        right: -80%;
+    }
+
+    &--2{
+        right: -20%
+    }
+
+    &--3{
+        right: -150%;
+    }
+}

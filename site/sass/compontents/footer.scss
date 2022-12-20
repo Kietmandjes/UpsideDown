@@ -5,5 +5,14 @@
     justify-content: flex-end;
     align-items: center;
     padding-right: 1rem;
-    opacity: 0.7;
+    
+    color:rgb(141, 140, 140) ; 
+    &__a{
+        text-decoration: none;
+        color:rgb(141, 140, 140) ; 
+        transition: 0.2s;
+        &:hover{
+            color: black;
+        }
+    }
 }

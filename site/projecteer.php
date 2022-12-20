@@ -22,7 +22,7 @@ if ($check_int === false) {
 
 
 
-$statement = $conn->prepare("SELECT * FROM `interactiviteit` WHERE id= ?");
+$statement = $conn->prepare("SELECT * FROM `interactiviteit1` WHERE id= ?");
 $params = [$id];
 
 
@@ -45,7 +45,6 @@ $place = $statement->fetch(PDO::FETCH_ASSOC);
     <title><?php echo  $place['naam'] ?></title>
 </head>
 <body>
-
     <a class="imga" href="index.php">
         <img class="projectieImg" src="<?php echo  $place['img'] ?>" alt="Wandelpad in bos">
     </a>

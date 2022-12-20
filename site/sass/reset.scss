@@ -8,13 +8,13 @@
 html{
     font-size: 62.5%;
     scroll-behavior: smooth;
-    
+    overflow-x: hidden;
 }
 
 body{
-    min-height: 100vh;
-
-    background: #eee;
+    min-height: 90vh;
+    background: linear-gradient(90deg, rgba(231,160,174,1) 0%, rgba(163,204,244,1) 100%);
     font-family: fonts.$poppins;
     font-size: 2rem;
+    width: 100%;
 }
